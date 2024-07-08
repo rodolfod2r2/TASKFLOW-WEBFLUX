@@ -13,8 +13,9 @@ O projeto está estruturado da seguinte forma:
     manipulação das entidades correspondentes.
 
 - `src/main/java/taskflow/document/`: Documentação das entidades da aplicação.
-  - `Archive/`, `Family/`, `Gamification/`, `Halo/`, `History/`, `Kind/`, `Project/`, `Remark/`, `Skill/`, `Task/`
-    , `Team/`, `User/`: Diretórios com detalhes das entidades.
+  - `Archive.java`, `Family.java`, `Gamification.java`, `Halo.java`, `History.java`, `Kind.java`, `Project.java`
+    , `Remark.java`, `Skill.java`, `Task.java`
+    , `Team.java`, `User.java`: Modelos de dados representando cada entidade.
 
 - `src/main/java/taskflow/repository/`: Repositórios para acesso aos dados.
   - `ArchiveRepository.java`, `FamilyRepository.java`, `GamificationRepository.java`, `HaloRepository.java`
