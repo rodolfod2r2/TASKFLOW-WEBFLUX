@@ -60,10 +60,13 @@ Para configurar o ambiente de desenvolvimento:
 
 Para executar a aplicação, você pode seguir estes passos:
 Compile o projeto e empacote-o em um arquivo JAR executável:
+
 ```bash
 mvn clean package
 ```
+
 Execute o arquivo JAR gerado:
+
 ```bash
 java -jar target/taskflow-webflux.jar
 ```
